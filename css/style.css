@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(205, 203, 192);
+     margin: 0px;
+    padding: 0px;
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content:space-around ;
+    align-items: center;
+
+    height:80px ;
+    background-color: rgb(185, 171, 144);
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+
+.flex-container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+} 
+
+.fotoperfil { 
+    border-radius: 50%;
+    height: 200px;
+    
+}
+
+.flex-sobremi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.item1 {
+    max-width: 750px;
+    margin-left: 30%;
+}
+.cajita-sobremi { 
+    margin: 50px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #4493c7    ;
+    background-color: rgb(82, 103, 163);
+    width: 120px;
+    height: 80px;
+}
+.flex-formacion1 { 
+  border-left: solid 5px black;
+  border-radius: 10px;
+  background-color: beige;
+  padding-left: 40px;
+  width: 1000px;
+  height: 160px; 
+  margin-left: 6%
+}
+
+
+.flex-formacion2 { 
+  border-left: solid 5px black;
+  border-radius: 10px;
+  background-color: beige;
+  padding-left: 40px;
+  width: 1000px;
+  height: 160px; 
+  margin-left: 6%
+
+}
+
+.flex-formacion3 { 
+  border-left: solid 5px black;
+  border-radius: 10px;
+  background-color: beige;
+  padding-left: 40px;
+  width: 1000px;
+  height: 160px; 
+  margin-left: 6%
+
+}
+
+.flex-formacion4 { 
+  border-left: solid 5px black;
+  border-radius: 10px;
+  background-color: beige;
+  padding-left: 40px;
+  width: 1000px;
+  height: 160px; 
+  margin-left: 6%
+
+}
+
+
